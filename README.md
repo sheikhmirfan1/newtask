@@ -1,1 +1,1 @@
-# newtask
+New task is completed.
