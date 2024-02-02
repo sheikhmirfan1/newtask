@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.header-container {
+  background-color: lightblue;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+}
+.nav-bar-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  bottom: 50px;
+  position: relative;
+}
+.nav-bar-items {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#col1{
+  
+    padding-right:  10px;
+}
+.col2{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-main {
+  background-color: #696565;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.footer-links {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+}
+h5 {
+  margin-left: 35px;
+}
+
+.footer-links a {
+  color: #e5e5e5;
+}
+li {
+  color: #ffffff;
+}
+
+.footer-social {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fa-brands {
+  color: #ffffff;
+  padding-right: 20px;
+}
+.Impressum {
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: #ffffff;
+}

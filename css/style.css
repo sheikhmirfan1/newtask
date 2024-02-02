@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Roboto Mono", "Space Grotesk", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero-text{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.header-container {
+  background-color: lightblue;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+}
+.nav-bar-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  bottom: 50px;
+  position: relative;
+}
+.nav-bar-items {
+  text-decoration: none;
+  color: black;
+}
+.hero{
+  background-image: url("/assets/earth-1756274_1280.jpg");
+  width: 100%;
+  height:500px;
+  opacity: 0.95;
+  background-size: cover;
+}
+#gallery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.wrapper {
+  
+  display: grid;
+  height: 800px;
+  width: 80%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-bottom: 60px;
+}
+
+.APOD-paragraph {
+  font-size: 20px;
+}
+
+.APOD-image {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.footer-main {
+  background-color: #696565;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.footer-links {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+}
+h5 {
+  margin-left: 35px;
+}
+
+.footer-links a {
+  color: #e5e5e5;
+}
+li {
+  color: #ffffff;
+}
+
+.footer-social {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fa-brands {
+  color: #ffffff;
+  padding-right: 20px;
+}
+.Impressum {
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+.img-api{
+  width: 80%;
+  height: 80%;
+  align-items: center;
+  object-fit: cover;
+}
+#btn1 {
+  width: 100px;
+  height: 20px;
+  margin-bottom: 20px;
+
+}
+
+#txtsearch{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
