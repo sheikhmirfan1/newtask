@@ -89,9 +89,14 @@ h5 {
 
 .footer-links a {
   color: #e5e5e5;
+  text-decoration: none;
 }
 li {
   color: #ffffff;
+  list-style: none;
+
+  margin-top: 5px;
+  padding: 5px;
 }
 
 .footer-social {
